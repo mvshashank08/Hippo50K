@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="codinglabs_logo.png">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippo:handle</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippo:named</sv:value>
+    <sv:value>mix:referenceable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>6da0976f-fcbd-4ef1-9ac8-70681a6c9ec3</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>codingLabs_logo.png</sv:value>
+  </sv:property>
+  <sv:node sv:name="codinglabs_logo.png">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippogallery:imageset</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+      <sv:value>live</sv:value>
+      <sv:value>preview</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippogallery:filename" sv:type="String">
+      <sv:value>codingLabs_logo.png</sv:value>
+    </sv:property>
+    <sv:node sv:name="hippogallery:thumbnail">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogallery:image</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:filename" sv:type="String">
+        <sv:value>codingLabs_logo.png</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogallery:height" sv:type="Long">
+        <sv:value>10</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogallery:width" sv:type="Long">
+        <sv:value>59</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:data" sv:type="Binary">
+        <sv:value>iVBORw0KGgoAAAANSUhEUgAAADsAAAAKCAYAAAAKAya7AAAEmElEQVR42r1Va2wVRRTeYhWtYiH0gbd3d2Z39t7bpiCNN6ZGY3IJVog2BmMaY6W2tsbaB33kAkFRAqREW1ECITZtrY+2WjAgBkNfFjVqAFsVrdhoQCP+IJJogCCh2MfxO3v3tlVqhaRxksnMzpw55/vOd2ZWKywqpDVr11B4dZiKS56iYEtLOKnzAPl6umjxwV5K7O7o1ohiNLelp6dfZ1mW4fZ47QpaIBCYozxK53lKSsp8j8cTp11lCwaD12KImc4mFb6ntamsqqTWtlbq6uqi5zZsIH9zU/jxr76kZwe/oycxxh14f5xsECAtIX+2pTlqCzmmDPnJlQC1hChVQp7juU+aZ2xhPnO1ZE3TvNu27dnTxzFfDYVCsf9qsKpilUO0p6eHNm7eRP6mhnABSK479i2Vf30UZPePk/WZFgH0KYmmdH2hT4j7o36UV9lQ2ofprHFFdd3jNwzLFKIc58gFvRjHF7CdUkrnSoGftFuTk2+MnhNC3AKbVFvXFeZpbAvf92Dt+knQZwWEMLHux9whiBjt7Ft5vXaUNKvN34ibrJWWlVJlZQVVVlVQdbiaMtra1i86+gXZfUfI1/c5LTj4wSEmy46hKNlSllyeUfk9k0G/BLV/iSgoM2CPbzHM1RAli/FX2KwNaaFYtvdJ6yTGIaDp530/koFzF23DPK+k/BNnO7B8zT/JciIDphnwe70psPuY11AxbcjOg0pXC03DyOMEIla+YOxC3KaZBbVZZsHWLGNlbZYqqlve0pBj9L+7NKu/NSOr/+3MrCPvLAk6IA0jyIBxqHAyUZAPcRJYVc4ebEahZFhJ89QECHligqw5jDMbmYDfUgSb5QD5EvbPuvvnVYQgJ+YwqqnPSejlyjoVgJgCmJpz4I+VnSTAK1z2SNpKrhBncW7+dpqHvqJuHyUUN9Hh+qUVY3uCRD/tJvqsnIbe9B4k0mJQckkOWWn9TVlkcjX6MJed3+NJgM1pDgo7JrjXCSzlI1ORDSib3P16vtP84EWTh7v9TeTaiB1TkcU7cB+eyGw7JcUL9epDIS0W467oNcK5RvfaCMzvRH9RW1TVSB8dO0k5W/fSwzs6qbcus2yoJ49Gz5ygkdP9dKEhvpvJumVynIEoXa5A2RVBsdfSExNv8vGalMXo+Q5Avr+G7Mb+bwB/B5cun3PVYgKbmWyq8kXWpNkA2z8iZWwR+2VlLK/InVRBywzDmOf1em/gDixPJLv3HHEbnL+EIfYEEhLmOPaGfJ7H6N3lhGjZNbvo6dYP6dFt71Huzi7qfSGz7OL+bBo5+yNd+mE3XWicP0EWZQES6wB8EMEHodIWt8Tvwncn1ntAZEn0AYG6m7B2CInJsw1jmxu01tbNe519IZtdlR6CrxpXkXYQIed9EPJ3v7T2Re63gjpmOfbKEKsaKs9FRZTAfr2l67fz74wTDt8PcDLToCj/rhCvmHHCPlOLf2z7wOzcl51+c/7O4582LMsde8saGG2MGxh9PWlgpN3fGCU7A+0//eDikzLNGgYL8B3o55DkRG0GAUzu2hTf/1vj1xhkt6C037B5VMqeKd9/AUVer4I1sMTEAAAAAElFTkSuQmCC</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:lastModified" sv:type="Date">
+        <sv:value>2017-07-04T12:40:36.729+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mimeType" sv:type="String">
+        <sv:value>image/png</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="hippogallery:original">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippogallery:image</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogallery:height" sv:type="Long">
+        <sv:value>30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippogallery:width" sv:type="Long">
+        <sv:value>179</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:data" sv:type="Binary">
+        <sv:value>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</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:lastModified" sv:type="Date">
+        <sv:value>2017-07-04T12:40:36.729+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mimeType" sv:type="String">
+        <sv:value>image/png</sv:value>
+      </sv:property>
+    </sv:node>
+  </sv:node>
+</sv:node>

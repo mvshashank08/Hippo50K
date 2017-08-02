@@ -1,0 +1,74 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-news-document": "new news item",
+      "new-resource-bundle": "new resource bundle",
+      "new-news-folder": "new news item folder",
+      "new-untranslated-folder": "new untranslated folder"
+    },
+    "nl":     {
+      "new-news-document": "nieuw nieuwsbericht",
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-news-folder": "nieuwe nieuwsmap",
+      "new-untranslated-folder": "nieuwe onvertaalde map"
+    },
+    "de":     {
+      "new-news-document": "Neue News",
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-news-folder": "Neuer News-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner"
+    },
+    "fr":     {
+      "new-news-document": "nouveau message d'info",
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-news-folder": "nouveau dossier messages d'info",
+      "new-untranslated-folder": "nouveau dossier non traduit"
+    }
+  },
+  "hippo:types": {"myhippoproject:newsdocument":   {
+    "en":     {
+      "myhippoproject:source": "Source",
+      "jcr:name": "News Item",
+      "myhippoproject:author": "Author",
+      "myhippoproject:location": "Location",
+      "myhippoproject:image": "Image",
+      "myhippoproject:content": "Content",
+      "myhippoproject:title": "Title",
+      "myhippoproject:date": "Date",
+      "myhippoproject:introduction": "Introduction"
+    },
+    "nl":     {
+      "myhippoproject:source": "Bron",
+      "jcr:name": "Nieuwsbericht",
+      "myhippoproject:author": "Auteur",
+      "myhippoproject:location": "Locatie",
+      "myhippoproject:image": "Afbeelding",
+      "myhippoproject:content": "Inhoud",
+      "myhippoproject:title": "Titel",
+      "myhippoproject:date": "Datum",
+      "myhippoproject:introduction": "Introductie"
+    },
+    "de":     {
+      "myhippoproject:source": "Quelle",
+      "jcr:name": "News",
+      "myhippoproject:author": "Verfasser",
+      "myhippoproject:location": "Standort",
+      "myhippoproject:image": "Abbildung",
+      "myhippoproject:content": "Inhalt",
+      "myhippoproject:title": "Titel",
+      "myhippoproject:date": "Datum",
+      "myhippoproject:introduction": "Einführung"
+    },
+    "fr":     {
+      "myhippoproject:source": "Source",
+      "jcr:name": "Message d'info",
+      "myhippoproject:author": "Auteur",
+      "myhippoproject:location": "Lieu",
+      "myhippoproject:image": "Image",
+      "myhippoproject:content": "Contenu",
+      "myhippoproject:title": "Titre",
+      "myhippoproject:date": "Date",
+      "myhippoproject:introduction": "Introduction"
+    }
+  }}
+}

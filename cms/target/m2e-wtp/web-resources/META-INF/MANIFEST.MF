@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: My Hippo Project CMS
+Implementation-Version: 0.1.0-SNAPSHOT
+Built-By: sashank
+Project-Build: 
+Implementation-Vendor-Id: org.example
+Project-Version: 0.1.0-SNAPSHOT
+Hippo-Release-Version: 11.2.1
+Build-Jdk: 1.8.0_111
+Implementation-URL: 
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: 
+

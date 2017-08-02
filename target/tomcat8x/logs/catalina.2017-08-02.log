@@ -1,0 +1,46 @@
+02-Aug-2017 08:33:10.923 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/sashank/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+02-Aug-2017 08:33:11.335 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+02-Aug-2017 08:33:11.395 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Aug-2017 08:33:11.399 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Aug-2017 08:33:11.401 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+02-Aug-2017 08:33:11.401 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1495 ms
+02-Aug-2017 08:33:11.535 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+02-Aug-2017 08:33:11.536 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.38
+02-Aug-2017 08:33:11.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/cargocpc.war
+02-Aug-2017 08:33:12.925 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/cargocpc.war has finished in 1,278 ms
+02-Aug-2017 08:33:12.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/cms.war
+02-Aug-2017 08:33:39.691 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/cms.war has finished in 26,765 ms
+02-Aug-2017 08:33:39.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/essentials.war
+02-Aug-2017 08:33:52.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/essentials.war has finished in 13,180 ms
+02-Aug-2017 08:33:52.875 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/site.war
+02-Aug-2017 08:33:52.905 INFO [localhost-startStop-1] org.apache.catalina.realm.JAASRealm.setUseContextClassLoader Setting useContextClassLoader = true
+02-Aug-2017 08:34:00.074 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/sashank/myhippoproject/target/tomcat8x/webapps/site.war has finished in 7,199 ms
+02-Aug-2017 08:34:00.075 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sashank/myhippoproject/target/tomcat8x/webapps/host-manager
+02-Aug-2017 08:34:00.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sashank/myhippoproject/target/tomcat8x/webapps/host-manager has finished in 99 ms
+02-Aug-2017 08:34:00.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/sashank/myhippoproject/target/tomcat8x/webapps/manager
+02-Aug-2017 08:34:00.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/sashank/myhippoproject/target/tomcat8x/webapps/manager has finished in 77 ms
+02-Aug-2017 08:34:00.270 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+02-Aug-2017 08:34:00.296 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+02-Aug-2017 08:34:00.301 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 48899 ms
+02-Aug-2017 12:28:44.543 INFO [Thread-39] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+02-Aug-2017 12:28:45.219 INFO [Thread-39] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Aug-2017 12:28:45.323 INFO [Thread-39] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+02-Aug-2017 12:28:55.050 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [cms] registered the JDBC driver [org.h2.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+02-Aug-2017 12:28:55.051 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [Wicket-PageSavingThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ org.apache.wicket.pageStore.AsynchronousDataStore$PageSavingRunnable.run(AsynchronousDataStore.java:345)
+ java.lang.Thread.run(Thread.java:745)
+02-Aug-2017 12:28:55.052 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [cms] appears to have started a thread named [Wicket-PageSavingThread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ org.apache.wicket.pageStore.AsynchronousDataStore$PageSavingRunnable.run(AsynchronousDataStore.java:345)
+ java.lang.Thread.run(Thread.java:745)
+02-Aug-2017 12:28:56.130 INFO [Thread-39] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+02-Aug-2017 12:28:56.171 INFO [Thread-39] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Aug-2017 12:28:56.287 INFO [Thread-39] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+02-Aug-2017 12:28:56.288 INFO [Thread-39] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

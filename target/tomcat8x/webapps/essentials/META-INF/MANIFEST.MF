@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: My Hippo Project Essentials
+Implementation-Version: 0.1.0-SNAPSHOT
+Archiver-Version: Plexus Archiver
+Built-By: sashank
+Implementation-Vendor-Id: org.example
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_111
+Implementation-URL: 
+Implementation-Vendor: 
+

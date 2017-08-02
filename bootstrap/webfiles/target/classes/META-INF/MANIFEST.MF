@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: My Hippo Project Bootstrap Web Files
+Implementation-Version: 0.1.0-SNAPSHOT
+Built-By: sashank
+Specification-Vendor: 
+Specification-Title: My Hippo Project Bootstrap Web Files
+Implementation-Vendor-Id: org.example
+Implementation-Vendor: 
+Implementation-Build: 
+Build-Jdk: 1.8.0_111
+Specification-Version: 0.1.0-SNAPSHOT
+Implementation-URL: 
+Created-By: Maven Integration for Eclipse
+

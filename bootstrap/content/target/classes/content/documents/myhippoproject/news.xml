@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="news">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:versionable</sv:value>
+    <sv:value>hippo:named</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>d4d0dc8a-6fdc-4e5f-8624-443d5c06e9fe</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippo:name" sv:type="String">
+    <sv:value>News</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-translated-folder</sv:value>
+    <sv:value>new-document</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>6ebae8c4-1ad1-44da-b43c-ad1da6805d23</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="reliance-jio">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>c61b6f1d-b3c9-43b3-a79f-15811fa2ff83</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Reliance Jio</sv:value>
+    </sv:property>
+    <sv:node sv:name="reliance-jio">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e27dfbef-7b1b-489d-af38-bebdaa249ac3</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/reliance-jio/reliance-jio[2]</sv:value>
+        <sv:value>news/reliance-jio/reliance-jio[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:49:49.704+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:49:50.870+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0c2532ea-2cfd-4ce6-8f99-3758130b0376</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>Ambani</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>Reliance Industries will have its annual general meeting (AGM) on July 21, and all eyes will be on announcements regarding Reliance Jio, and whether there will be new products around the service. There's a chance the Reliance Jio 4G VoLTE enabled feature phone will be unveiled.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:50:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Mumbai</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Reliance Jio 4G VoLTE feature phone: Will Mukesh Ambani announce it at AGM tomorrow?</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>73fd4a41-1003-46b3-ad86-fb12ab0f05bd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="reliance-jio">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>68175ccc-983c-4b1b-a0ed-1dcd4bcabf42</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/reliance-jio/reliance-jio[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:49:49.704+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:54:37.869+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0c2532ea-2cfd-4ce6-8f99-3758130b0376</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>Ambani</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>Reliance Industries will have its annual general meeting (AGM) on July 21, and all eyes will be on announcements regarding Reliance Jio, and whether there will be new products around the service. There's a chance the Reliance Jio 4G VoLTE enabled feature phone will be unveiled.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:50:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Mumbai</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Reliance Jio 4G VoLTE feature phone: Will Mukesh Ambani announce it at AGM tomorrow?</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>73fd4a41-1003-46b3-ad86-fb12ab0f05bd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="reliance-jio">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>d0c4284c-56ce-4dfc-9d90-df3d980881ee</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/reliance-jio/reliance-jio[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:49:49.704+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:54:37.869+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:54:41.732+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>0c2532ea-2cfd-4ce6-8f99-3758130b0376</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>Ambani</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>Reliance Industries will have its annual general meeting (AGM) on July 21, and all eyes will be on announcements regarding Reliance Jio, and whether there will be new products around the service. There's a chance the Reliance Jio 4G VoLTE enabled feature phone will be unveiled.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:50:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Mumbai</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Reliance Jio 4G VoLTE feature phone: Will Mukesh Ambani announce it at AGM tomorrow?</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>73fd4a41-1003-46b3-ad86-fb12ab0f05bd</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="elon-musk-on-ai">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>5c9f7d14-8cb2-40ca-9926-b77ee2d4166a</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>Elon Musk on AI</sv:value>
+    </sv:property>
+    <sv:node sv:name="elon-musk-on-ai">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>43d460fb-9c33-416f-b080-e006321be144</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/elon-musk-on-ai/elon-musk-on-ai[3]</sv:value>
+        <sv:value>news/elon-musk-on-ai/elon-musk-on-ai[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:55:48.406+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:55:49.082+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f2b6f708-1256-4aa4-9bf3-6cf0d2992528</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>AATIF SULLEYMAN</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>Elon Musk has branded artificial intelligence “a fundamental existential risk for human civilisation”.&#13;
+&#13;
+He says we mustn’t wait for a disaster to happen before deciding to regulate it, and that AI is, in his eyes, the scariest problem we now face.&#13;
+&#13;
+He also wants the companies working on AI to slow down to ensure they don’t unintentionally build something unsafe.&#13;
+&#13;
+The CEO of Tesla and SpaceX was speaking on-stage at the National Governor’s Association at the weekend.&#13;
+&#13;
+“I have exposure to the most cutting-edge AI and I think people should be really concerned about it,” he said. “I keep sounding the alarm bell but until people see robots going down the street killing people, they don’t know how to react because it seems so ethereal. "</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:57:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Rhode Island, U.S</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Elon Musk has branded artificial intelligence “a fundamental existential risk for human civilisation”.</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>e8c1f23e-6b31-4951-a405-1f8d5bdde114</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="elon-musk-on-ai">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>fd04001d-8a14-468a-9213-2ed816ae568e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/elon-musk-on-ai/elon-musk-on-ai[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:55:48.406+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:03.482+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f2b6f708-1256-4aa4-9bf3-6cf0d2992528</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>AATIF SULLEYMAN</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>Elon Musk has branded artificial intelligence “a fundamental existential risk for human civilisation”.&#13;
+&#13;
+He says we mustn’t wait for a disaster to happen before deciding to regulate it, and that AI is, in his eyes, the scariest problem we now face.&#13;
+&#13;
+He also wants the companies working on AI to slow down to ensure they don’t unintentionally build something unsafe.&#13;
+&#13;
+The CEO of Tesla and SpaceX was speaking on-stage at the National Governor’s Association at the weekend.&#13;
+&#13;
+“I have exposure to the most cutting-edge AI and I think people should be really concerned about it,” he said. “I keep sounding the alarm bell but until people see robots going down the street killing people, they don’t know how to react because it seems so ethereal. "</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:57:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Rhode Island, U.S</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Elon Musk has branded artificial intelligence “a fundamental existential risk for human civilisation”.</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>e8c1f23e-6b31-4951-a405-1f8d5bdde114</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="elon-musk-on-ai">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>e73eb5af-186c-4e96-9b0a-175edb289c1a</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/elon-musk-on-ai/elon-musk-on-ai[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:55:48.406+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:03.482+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:09.671+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>f2b6f708-1256-4aa4-9bf3-6cf0d2992528</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>AATIF SULLEYMAN</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>Elon Musk has branded artificial intelligence “a fundamental existential risk for human civilisation”.&#13;
+&#13;
+He says we mustn’t wait for a disaster to happen before deciding to regulate it, and that AI is, in his eyes, the scariest problem we now face.&#13;
+&#13;
+He also wants the companies working on AI to slow down to ensure they don’t unintentionally build something unsafe.&#13;
+&#13;
+The CEO of Tesla and SpaceX was speaking on-stage at the National Governor’s Association at the weekend.&#13;
+&#13;
+“I have exposure to the most cutting-edge AI and I think people should be really concerned about it,” he said. “I keep sounding the alarm bell but until people see robots going down the street killing people, they don’t know how to react because it seems so ethereal. "</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:57:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Rhode Island, U.S</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Elon Musk has branded artificial intelligence “a fundamental existential risk for human civilisation”.</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>e8c1f23e-6b31-4951-a405-1f8d5bdde114</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="how-apple-is-revolutionizing-personal-fitness">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippo:named</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>f279be72-4eca-4321-a87a-0479dccb58a9</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippo:name" sv:type="String">
+      <sv:value>How Apple is revolutionizing personal fitness</sv:value>
+    </sv:property>
+    <sv:node sv:name="how-apple-is-revolutionizing-personal-fitness">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5e5f2e7c-e466-4dd8-97a0-e95e52e7e129</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/how-apple-is-revolutionizing-personal-fitness/how-apple-is-revolutionizing-personal-fitness[2]</sv:value>
+        <sv:value>news/how-apple-is-revolutionizing-personal-fitness/how-apple-is-revolutionizing-personal-fitness[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:31.995+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:32.088+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>1d35199e-a339-4081-99dc-785ba36dd032</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>Hitesh Raj Bhagat</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>You may think that a tiny fitness tracker on your wrist is not capable of much but Apple begs to differ. Combined with expertise from third-party developers and accessories, the Watch is made even more powerful.&#13;
+&#13;
+Hitesh Raj Bhagat got a chance to experience several new avenues that Apple is exploring to revolutionize health monitoring and improve personal fitness. These are a few of the experiences that stood out.&#13;
+&#13;
+Prama&#13;
+&#13;
+Prama is unlike any gym you've seen: there are no rowers, treadmills, steppers, exercise bikes or other gym equipment. Instead, you're greeted with large screens, surround sound speakers, pressure sensitive wallsfloors and LED lights.&#13;
+&#13;
+Basically, it gives you a complete body workout (strength, agility, speed) by immersing you in a giant game. It's a strong motivator for someone who shies away from fitness because its boring. An instructor with Apple Watch will be able to control the workouts from his her wrist -this means changing the workouts, swapping music and upping intensityspeed.Prama does require a fairly elaborate installation though and the expense makes it more suitable for gyms rather than houses.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:59:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Bangalore</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>How Apple is revolutionizing personal fitness</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>3fa33cbf-cd95-4a36-9572-48d199587562</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="how-apple-is-revolutionizing-personal-fitness">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>97863c6f-1ac5-4b58-bcf8-958d7fcfb3f0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/how-apple-is-revolutionizing-personal-fitness/how-apple-is-revolutionizing-personal-fitness[3]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:31.995+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T17:00:22.867+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>1d35199e-a339-4081-99dc-785ba36dd032</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>Hitesh Raj Bhagat</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>You may think that a tiny fitness tracker on your wrist is not capable of much but Apple begs to differ. Combined with expertise from third-party developers and accessories, the Watch is made even more powerful.&#13;
+&#13;
+Hitesh Raj Bhagat got a chance to experience several new avenues that Apple is exploring to revolutionize health monitoring and improve personal fitness. These are a few of the experiences that stood out.&#13;
+&#13;
+Prama&#13;
+&#13;
+Prama is unlike any gym you've seen: there are no rowers, treadmills, steppers, exercise bikes or other gym equipment. Instead, you're greeted with large screens, surround sound speakers, pressure sensitive wallsfloors and LED lights.&#13;
+&#13;
+Basically, it gives you a complete body workout (strength, agility, speed) by immersing you in a giant game. It's a strong motivator for someone who shies away from fitness because its boring. An instructor with Apple Watch will be able to control the workouts from his her wrist -this means changing the workouts, swapping music and upping intensityspeed.Prama does require a fairly elaborate installation though and the expense makes it more suitable for gyms rather than houses.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:59:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Bangalore</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>How Apple is revolutionizing personal fitness</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>3fa33cbf-cd95-4a36-9572-48d199587562</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="how-apple-is-revolutionizing-personal-fitness">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:MyNewsItem</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>b4963b05-582a-4d19-a55e-f9c1aae7aafb</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>news/how-apple-is-revolutionizing-personal-fitness/how-apple-is-revolutionizing-personal-fitness[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>published</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2017-07-20T16:58:31.995+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2017-07-20T17:00:22.867+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2017-07-20T17:00:26.271+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>1d35199e-a339-4081-99dc-785ba36dd032</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:author" sv:type="String">
+        <sv:value>Hitesh Raj Bhagat</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:content" sv:type="String">
+        <sv:value>You may think that a tiny fitness tracker on your wrist is not capable of much but Apple begs to differ. Combined with expertise from third-party developers and accessories, the Watch is made even more powerful.&#13;
+&#13;
+Hitesh Raj Bhagat got a chance to experience several new avenues that Apple is exploring to revolutionize health monitoring and improve personal fitness. These are a few of the experiences that stood out.&#13;
+&#13;
+Prama&#13;
+&#13;
+Prama is unlike any gym you've seen: there are no rowers, treadmills, steppers, exercise bikes or other gym equipment. Instead, you're greeted with large screens, surround sound speakers, pressure sensitive wallsfloors and LED lights.&#13;
+&#13;
+Basically, it gives you a complete body workout (strength, agility, speed) by immersing you in a giant game. It's a strong motivator for someone who shies away from fitness because its boring. An instructor with Apple Watch will be able to control the workouts from his her wrist -this means changing the workouts, swapping music and upping intensityspeed.Prama does require a fairly elaborate installation though and the expense makes it more suitable for gyms rather than houses.</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:date" sv:type="Date">
+        <sv:value>2017-07-20T16:59:00.000+05:30</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:location" sv:type="String">
+        <sv:value>Bangalore</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>How Apple is revolutionizing personal fitness</sv:value>
+      </sv:property>
+      <sv:node sv:name="myhippoproject:image">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippogallerypicker:imagelink</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:docbase" sv:type="String">
+          <sv:value>3fa33cbf-cd95-4a36-9572-48d199587562</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+        <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>
