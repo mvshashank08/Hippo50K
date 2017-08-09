@@ -249,7 +249,7 @@
               <configuration>
                 <properties>
                    <cargo.servlet.port>9080</cargo.servlet.port>
-                   <cargo.tomcat.ajp.port>9009</cargo.tomcat.ajp.port>
+                   <cargo.tomcat.ajp.port>9185</cargo.tomcat.ajp.port>
                    <cargo.rmi.port>9205</cargo.rmi.port>
                    <cargo.jvmargs>
                      <![CDATA[-agentlib:jdwp=transport=dt_socket,address=9000,server=y,suspend=n -noverify ${javaagent}]]>
