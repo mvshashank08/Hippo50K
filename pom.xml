@@ -252,7 +252,7 @@
                    <cargo.tomcat.ajp.port>9185</cargo.tomcat.ajp.port>
                    <cargo.rmi.port>9205</cargo.rmi.port>
                    <cargo.jvmargs>
-                     <![CDATA[-agentlib:jdwp=transport=dt_socket,address=9000,server=y,suspend=n -noverify ${javaagent}]]>
+                     <![CDATA[-agentlib:jdwp=transport=dt_socket,address=9186,server=y,suspend=n -noverify ${javaagent}]]>
                    </cargo.jvmargs>
                  </properties>
                 <configfiles>
