@@ -132,7 +132,6 @@ public class DealDocThreeResource extends BaseRestResource {
             dealDocThreeBean.setFounded(dealDocThreeBeanPut.getFounded());
             dealDocThreeBean.setEmployees(dealDocThreeBeanPut.getEmployees());
             dealDocThreeBean.setRaising(dealDocThreeBeanPut.getRaising());
-            dealDocThreeBean.setDilution(dealDocThreeBeanPut.getDilution());
             dealDocThreeBean.setAnnualRevenue(dealDocThreeBeanPut.getAnnualRevenue());
             dealDocThreeBean.setPrevCapital(dealDocThreeBeanPut.getPrevCapital());
             dealDocThreeBean.setImage(dealDocThreeBeanPut.getImage());

@@ -65,7 +65,7 @@
         <sv:value>2017-07-26T12:03:32.410+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:10:28.238+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:19.323+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -112,6 +112,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>5.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>500.0</sv:value>
       </sv:property>
@@ -123,6 +126,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>5</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>http://wipro.com</sv:value>
@@ -169,7 +175,7 @@
         <sv:value>2017-07-26T12:03:32.410+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:12:26.115+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:31.468+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -216,6 +222,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>5.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>500.0</sv:value>
       </sv:property>
@@ -227,6 +236,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>5</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>http://wipro.com</sv:value>
@@ -272,13 +284,13 @@
         <sv:value>2017-07-26T12:03:32.410+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:12:26.115+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:31.468+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:12:36.841+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:35.090+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>34403d53-042a-488e-9cf7-f3285def0016</sv:value>
@@ -322,6 +334,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>5.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>500.0</sv:value>
       </sv:property>
@@ -333,6 +348,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>5</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>http://wipro.com</sv:value>
@@ -392,7 +410,7 @@
         <sv:value>2017-07-31T20:08:42.674+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:14:17.676+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:40.957+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -439,6 +457,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>1.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>150.0</sv:value>
       </sv:property>
@@ -450,6 +471,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>20</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>https://twitter.com</sv:value>
@@ -496,7 +520,7 @@
         <sv:value>2017-07-31T20:08:42.674+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:14:17.570+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:49.112+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -543,6 +567,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>1.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>150.0</sv:value>
       </sv:property>
@@ -554,6 +581,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>20</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>https://twitter.com</sv:value>
@@ -599,13 +629,13 @@
         <sv:value>2017-07-31T20:08:42.674+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:14:17.570+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:49.112+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:14:22.421+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:52.173+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>83dd9cdf-eb3a-4ea9-819d-e756cbbb8509</sv:value>
@@ -649,6 +679,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>1.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>150.0</sv:value>
       </sv:property>
@@ -660,6 +693,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>20</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>https://twitter.com</sv:value>
@@ -719,7 +755,7 @@
         <sv:value>2017-07-31T20:12:17.392+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T15:36:25.882+05:30</sv:value>
+        <sv:value>2017-09-18T18:26:57.183+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -766,6 +802,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>10.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>500.0</sv:value>
       </sv:property>
@@ -777,6 +816,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>10</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value> Convertable Note(CCD)</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>www.infosys.com</sv:value>
@@ -823,7 +865,7 @@
         <sv:value>2017-07-31T20:12:17.392+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T15:36:34.760+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:04.591+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -870,6 +912,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>10.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>500.0</sv:value>
       </sv:property>
@@ -881,6 +926,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>10</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value> Convertable Note(CCD)</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>www.infosys.com</sv:value>
@@ -926,13 +974,13 @@
         <sv:value>2017-07-31T20:12:17.392+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T15:36:34.760+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:04.591+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2017-08-01T15:36:37.722+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:07.644+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>2c6fa3e6-8774-428f-a634-832d5da5aada</sv:value>
@@ -976,6 +1024,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>10.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>500.0</sv:value>
       </sv:property>
@@ -987,6 +1038,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>10</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value> Convertable Note(CCD)</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>www.infosys.com</sv:value>
@@ -1046,7 +1100,7 @@
         <sv:value>2017-07-31T20:16:24.272+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:15:48.121+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:11.608+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1093,6 +1147,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>75.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>900.0</sv:value>
       </sv:property>
@@ -1104,6 +1161,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>15</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>www.tcs.com</sv:value>
@@ -1150,7 +1210,7 @@
         <sv:value>2017-07-31T20:16:24.272+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:16:34.433+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:18.402+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1197,6 +1257,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>75.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>900.0</sv:value>
       </sv:property>
@@ -1208,6 +1271,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>15</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>www.tcs.com</sv:value>
@@ -1253,13 +1319,13 @@
         <sv:value>2017-07-31T20:16:24.272+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:16:34.433+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:18.402+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2017-08-01T09:16:38.391+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:21.960+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>08ea410e-a105-43ce-9dd6-0f753eab6a5d</sv:value>
@@ -1303,6 +1369,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>75.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>900.0</sv:value>
       </sv:property>
@@ -1314,6 +1383,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>15</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value>Equity Dilution</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>www.tcs.com</sv:value>
@@ -1373,7 +1445,7 @@
         <sv:value>2017-07-31T20:27:24.265+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T10:17:18.256+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:27.598+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1420,6 +1492,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>3.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>170.0</sv:value>
       </sv:property>
@@ -1431,6 +1506,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>5</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value> Convertable Note(CCD)</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>in.linkedin.com</sv:value>
@@ -1477,7 +1555,7 @@
         <sv:value>2017-07-31T20:27:24.265+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T10:17:35.802+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:35.095+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -1524,6 +1602,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>3.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>170.0</sv:value>
       </sv:property>
@@ -1535,6 +1616,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>5</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value> Convertable Note(CCD)</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>in.linkedin.com</sv:value>
@@ -1580,13 +1664,13 @@
         <sv:value>2017-07-31T20:27:24.265+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2017-08-01T10:17:35.802+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:35.095+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
-        <sv:value>2017-08-01T10:17:38.493+05:30</sv:value>
+        <sv:value>2017-09-18T18:27:37.738+05:30</sv:value>
       </sv:property>
       <sv:property sv:name="hippotranslation:id" sv:type="String">
         <sv:value>260c3867-7ab9-4e60-a7ad-cb7d3b980625</sv:value>
@@ -1630,6 +1714,9 @@
       <sv:property sv:name="myhippoproject:minInvestment" sv:type="Double">
         <sv:value>3.0</sv:value>
       </sv:property>
+      <sv:property sv:name="myhippoproject:per" sv:type="Double">
+        <sv:value>0.0</sv:value>
+      </sv:property>
       <sv:property sv:name="myhippoproject:prevCapital" sv:type="Double">
         <sv:value>170.0</sv:value>
       </sv:property>
@@ -1641,6 +1728,9 @@
       </sv:property>
       <sv:property sv:name="myhippoproject:steps" sv:type="Long">
         <sv:value>5</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:type" sv:type="String">
+        <sv:value> Convertable Note(CCD)</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:website" sv:type="String">
         <sv:value>in.linkedin.com</sv:value>

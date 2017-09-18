@@ -52,23 +52,4 @@ public class MyNewsItem extends BaseDocument {
     public HippoGalleryImageSet getImage() {
         return getLinkedBean("myhippoproject:image", HippoGalleryImageSet.class);
     }
-
-    //added translation id, creation date, last modified
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "hippotranslation:id")
-    public String getId() {
-        return getProperty("hippotranslation:id");
-    }
-
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "hippostdpubwf:creationDate")
-    public Calendar getcreationDate() {
-        return getProperty("hippostdpubwf:creationDate");
-    }
-
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "hippostdpubwf:lastModificationDate")
-    public Calendar getlastModificationDate() {
-        return getProperty("hippostdpubwf:lastModificationDate");
-    }
 }

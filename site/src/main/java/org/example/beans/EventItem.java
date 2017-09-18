@@ -58,23 +58,4 @@ public class EventItem extends BaseDocument {
     public String getLocation() {
         return getProperty("myhippoproject:location");
     }
-
-    //added translation id, creation date, last modified
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "hippotranslation:id")
-    public String getId() {
-        return getProperty("hippotranslation:id");
-    }
-
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "hippostdpubwf:creationDate")
-    public Calendar getcreationDate() {
-        return getProperty("hippostdpubwf:creationDate");
-    }
-
-    @XmlElement
-    @HippoEssentialsGenerated(internalName = "hippostdpubwf:lastModificationDate")
-    public Calendar getlastModificationDate() {
-        return getProperty("hippostdpubwf:lastModificationDate");
-    }
 }

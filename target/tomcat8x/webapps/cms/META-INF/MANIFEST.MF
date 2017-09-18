@@ -2,13 +2,13 @@ Manifest-Version: 1.0
 Implementation-Title: My Hippo Project CMS
 Implementation-Version: 0.1.0-SNAPSHOT
 Archiver-Version: Plexus Archiver
-Built-By: sashank
+Built-By: thejasreem
 Implementation-Vendor-Id: org.example
 Project-Version: 0.1.0-SNAPSHOT
 Implementation-Vendor: 
-Project-Build: -1
+Project-Build: 870f931b6982cb965495a2b12654c213b9e7567c
 Hippo-Release-Version: 11.2.1
 Created-By: Apache Maven 3.5.0
-Build-Jdk: 1.8.0_111
+Build-Jdk: 1.8.0_121
 Implementation-URL: 
 

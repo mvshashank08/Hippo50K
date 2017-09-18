@@ -12,6 +12,7 @@ import org.onehippo.cms7.essentials.components.rest.adapters.HippoGalleryImageAd
 import org.hippoecm.hst.content.beans.ContentNodeBindingException;
 import javax.jcr.RepositoryException;
 import java.util.Calendar;
+import java.util.*;
 
 @XmlRootElement(name = "dealdocthree")
 @XmlAccessorType(XmlAccessType.NONE)
@@ -26,11 +27,12 @@ public class DealDocThree extends BaseDocument {
     private Long founded;
     private Long employees;
     private Double raising;
-    private Double per;
     private Double annualRevenue;
     private Double prevCapital;
-    private String type;
     private HippoGalleryImageSet imageBean;
+
+    private DealDocThree() {
+    }
 
     @XmlElement
     @HippoEssentialsGenerated(internalName = "myhippoproject:company")
@@ -75,12 +77,6 @@ public class DealDocThree extends BaseDocument {
     }
 
     @XmlElement
-    @HippoEssentialsGenerated(internalName = "myhippoproject:dilution")
-    public Double getPer() {
-        return getProperty("myhippoproject:per");
-    }
-
-    @XmlElement
     @HippoEssentialsGenerated(internalName = "myhippoproject:annualRevenue")
     public Double getAnnualRevenue() {
         return getProperty("myhippoproject:annualRevenue");
@@ -92,11 +88,6 @@ public class DealDocThree extends BaseDocument {
         return getProperty("myhippoproject:prevCapital");
     }
 
- @XmlElement
-    @HippoEssentialsGenerated(internalName = "myhippoproject:prevCapital")
-    public Double getType() {
-        return getProperty("myhippoproject:type");
-    }
     @XmlElement
     @HippoEssentialsGenerated(internalName = "myhippoproject:description")
     public String getDescription() {
@@ -142,10 +133,6 @@ public class DealDocThree extends BaseDocument {
         this.raising = raising;
     }
 
-    public void setPer(Double per) {
-        this.per = per;
-    }
-
     public void setAnnualRevenue(Double annualRevenue) {
         this.annualRevenue = annualRevenue;
     }
@@ -156,9 +143,6 @@ public class DealDocThree extends BaseDocument {
 
     public void setImage(HippoGalleryImageSet imageBean) {
         this.imageBean = imageBean;
-    }
-     public void setType(String type) {
-        this.type = type;
     }
 
     public boolean bind(Object content, javax.jcr.Node node)
@@ -181,10 +165,6 @@ public class DealDocThree extends BaseDocument {
                     dealDocThreeBean.getEmployees());
             node.setProperty("myhippoproject:raising",
                     dealDocThreeBean.getRaising());
-            node.setProperty("myhippoproject:per",
-                    dealDocThreeBean.getPer());
-             node.setProperty("myhippoproject:type",
-                    dealDocThreeBean.getType());
             node.setProperty("myhippoproject:annualRevenue",
                     dealDocThreeBean.getAnnualRevenue());
             node.setProperty("myhippoproject:prevCapital",
@@ -231,7 +211,18 @@ public class DealDocThree extends BaseDocument {
         return getProperty("myhippoproject:steps");
     }
 
-    //added translation id, creation date, last modified
+    @HippoEssentialsGenerated(internalName = "myhippoproject:per")
+    public Double getPer() {
+        return getProperty("myhippoproject:per");
+    }
+
+    @HippoEssentialsGenerated(internalName = "myhippoproject:type")
+    public String getType() {
+        return getProperty("myhippoproject:type");
+    }
+
+
+     //added translation id, creation date, last modified
     @XmlElement
     @HippoEssentialsGenerated(internalName = "hippotranslation:id")
     public String getId() {
@@ -249,5 +240,4 @@ public class DealDocThree extends BaseDocument {
     public Calendar getlastModificationDate() {
         return getProperty("hippostdpubwf:lastModificationDate");
     }
-
 }
